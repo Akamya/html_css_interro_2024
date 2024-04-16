@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    min-width: 20%;
+    height: 10%;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: rgba(173, 173, 173, 0.792);
+}
+
+ul li {
+    font-size: 2em;
+    padding: 0.5em;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+ul li a:link, ul li a:visited {
+    text-decoration: none;
+    color:  white;
+}
+
+header {
+    background: url(images/header.jpg) no-repeat;
+    background-size: cover;
+    height: 25em;
+}
+
+header h1 {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 2em;
+    color: white;
+    padding-top: 10em;
+    padding-left: 2em;
+    font-weight: bold;
+}
+
+main {
+    margin: 5em;
+}
+
+main h1 {
+    font-size: 2em;
+    font-family: "Love Ya Like A Sister", cursive;
+    margin-top: 2em;
+}
+
+main p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.imgFolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.imgFolio img {
+    width: 80%;
+}
+
+.imgLogos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.servicesText {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    flex-basis: auto;
+}
+
+footer {
+    margin-top: 3em;
+    background-color: black;
+    height: 10em;
+    color:  white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* footer span {
+    justify-self: flex-end;
+    align-self: flex-end;
+    padding-right: 5em;
+} */
+
+ion-icon {
+    font-size: 2em;
+  }
+
+#fleche {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    color: gray;
+    padding-right: 2em;
+}
